@@ -26,31 +26,35 @@ main>h2 {
 }
 
 section {
-	max-width: calc(100% / 2 - 2rem);
-	padding:1rem;
+	max-width: calc(100% / 2 - 0.5rem);
+	padding: 1rem;
 	background-color: white;
 	border: 1px #666666 solid;
 	border-radius: 4px;
 }
 
-section>* {
-	margin: 1rem 0;
+section>img {
+	display: flex;
+	align-items: center;
+	max-height: calc(inherit * 0.4)
 }
 
 aside {
+	padding: 1rem;
 	border: 1px #666666 solid;
 	border-radius: 4px;
 }
 
 footer {
+	padding: 1rem 0;
 	text-align: center;
 	color: #fff;
 }
 
-/* Mobile View */
-
 .wide-flex {
 	display: flex;
+	max-width: 1280px;
+	margin: auto;
 }
 
 .flex-container {
@@ -58,11 +62,7 @@ footer {
 	flex-wrap: wrap;
 }
 
-/* .flex-container>p {
-	max-width: 100%;
-	margin: 1rem;
-} */
-
+/* Mobile View */
 /* Medium View */
 
 
